@@ -160,7 +160,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private void showPopupWindow1Right() {
         mPopupWindow1.getContentView().measure(View.MeasureSpec.UNSPECIFIED, View.MeasureSpec.UNSPECIFIED);
         int xOff;
-        int buttonWidth = button3.getWidth();
+        int buttonWidth = button4.getWidth();
         int popupwindowWidth = mPopupWindow1.getContentView().getMeasuredWidth();
 
         xOff = buttonWidth - popupwindowWidth;
